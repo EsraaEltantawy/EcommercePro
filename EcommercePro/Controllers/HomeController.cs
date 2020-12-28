@@ -17,6 +17,7 @@ namespace EcommercePro.Controllers
 
         public ActionResult About()
         {
+            // comment for test
             ViewBag.Message = "Your application description page.";
 
             return View();

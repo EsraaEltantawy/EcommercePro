@@ -10,7 +10,7 @@ namespace EcommercePro.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "يا اســــــــراء";
+            ViewBag.Message = "..يا اســــــــراء";
 
             return View();
         }

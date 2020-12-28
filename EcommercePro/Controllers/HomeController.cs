@@ -9,7 +9,9 @@ namespace EcommercePro.Controllers
     public class HomeController : Controller
     {
         public ActionResult Index()
-        { 
+        {
+            ViewBag.Message = "يا اســــــــراء";
+
             return View();
         }
 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7ce699d483e349309284e1ec84244568" Name="Diagram1">
+        <EntityTypeShape EntityType="Models.sysdiagrams" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Tbl_Cart" Width="1.5" PointX="10.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Tbl_CartStatus" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Tbl_Category" Width="1.5" PointX="5.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Tbl_MemberRole" Width="1.5" PointX="4.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Tbl_Members" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Tbl_Product" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Tbl_Roles" Width="1.5" PointX="6.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Tbl_ShippingDetails" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Tbl_SlideImage" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="Models.FK__Tbl_Cart__Produc__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Tbl_Produ__Categ__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Tbl_Shipp__Membe__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Tbl_Shipp__Membe__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Tbl_Shipp__Membe__68487DD7" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

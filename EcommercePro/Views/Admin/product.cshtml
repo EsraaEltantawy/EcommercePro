@@ -4,8 +4,18 @@
     ViewBag.Title = "product";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
+<!-- Breadcrumbs-->
 
-<h2>product</h2>
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="#">Dashboard</a>
+    </li>
+    <li class="breadcrumb-item active">
+        Product
+    </li>
+
+</ol>
+
 
 <div class="card mb-3">
     <div class="card-header">
@@ -19,7 +29,7 @@
                 <thead>
                     <tr>
                         <th>Sr. No.</th>
-                        <th>Category Name</th>
+                        <th>Product Name</th>
                         <th>Action</th>
 
                     </tr>

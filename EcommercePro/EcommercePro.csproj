@@ -1797,6 +1797,7 @@
     <Content Include="Views\Admin\Categories.cshtml" />
     <Content Include="Views\Admin\updateCategory.cshtml" />
     <Content Include="Views\Admin\product.cshtml" />
+    <Content Include="Views\Admin\ProductEdit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

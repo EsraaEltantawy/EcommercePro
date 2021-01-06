@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace OnlineShoppingStore.Models
+namespace EcommercePro.Models
 {
     public class CategoryDetail
     {

@@ -49,12 +49,12 @@ namespace EcommercePro.Controllers
 
         public ActionResult ProductEdit(int productId)
         {
-           //ViewBag.CategoryList = GetCategory();
+           
             return View(_unitOfWork.GetRepositoryInstance<Tbl_Product>().GetFirstorDefault(productId));
         }
 
         [HttpPost]
-        public ActionResult ProductEdit(Tbl_Product tbl, HttpPostedFileBase file)
+        public ActionResult ProductEdit(Tbl_Product tbl)
         {
             string pic = null;
             if (file != null)
